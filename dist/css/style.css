@@ -1,0 +1,143 @@
+
+*{
+
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.section{
+    background: #efefef;
+
+}
+.container{
+    max-width: 950px;
+    height: 100%;
+    margin: auto;
+    background: darkgreen;
+}
+
+.form{
+    width: 42%;
+    height: 100%;
+    float: left;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #444444;
+} 
+
+.content_container{
+    position: relative;
+    margin:auto;
+    width: 80%;
+    height: 100%;
+}
+
+.content_container img{
+    width:114px;
+    height:114px;
+    margin-top:14px;
+}
+
+.content_container h2{
+    font-weight: bold;
+    margin:8px 0px 16px  0px;
+}
+
+.content_container p{
+    text-align: left;
+    margin:0px 0px 12px 0px;
+
+}
+
+.content_container p a{
+    text-decoration: none;
+    color: #2f5d96;
+}
+
+.content_container .login{
+    text-align: left;
+}
+
+.content_container .login label{
+    display: block;
+    margin-bottom: 7px;
+}
+
+.content_container .login .password{
+    position: relative;
+}
+
+.content_container .login .password span{
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+
+.content_container .login .keep{
+    text-align: center;
+    margin-bottom: 7px;
+    margin-top: 20px;
+
+}
+
+.content_container .login .forgot{
+    text-align: center;
+}
+
+.content_container .login .forgot a{
+    text-decoration: none;
+    color: #2f5d96;
+}
+
+.content_container input{
+    display: block;
+    margin-bottom: 9px;
+    padding: 8px 6px;
+    border: 1px solid gray;
+    width: 100%;
+    outline: none;
+    border-radius: 3px;
+}
+
+.content_container input[type="checkbox"]{
+
+    display: inline;
+    width: 14px;
+    margin-top:2px;
+    
+}
+
+.content_container input[type="submit"]{
+    font-weight: bold;
+    color: white;
+    background: #2f5d96;
+    margin-top: 26px;
+    cursor: pointer;
+    border: 1px solid #264975;
+}
+
+.content_container .terms{
+    position: absolute;
+    bottom: 0px;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #8a8a8a;
+    line-height: 17px;
+}
+
+.image{
+    width: 58%;
+    float:left;
+    height: 100%;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
